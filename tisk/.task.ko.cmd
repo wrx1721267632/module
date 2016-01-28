@@ -1,0 +1,1 @@
+cmd_/home/linux/moudle/tisk/task.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/linux/moudle/tisk/task.ko /home/linux/moudle/tisk/task.o /home/linux/moudle/tisk/task.mod.o

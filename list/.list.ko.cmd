@@ -1,0 +1,1 @@
+cmd_/home/linux/moudle/list/list.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/linux/moudle/list/list.ko /home/linux/moudle/list/list.o /home/linux/moudle/list/list.mod.o

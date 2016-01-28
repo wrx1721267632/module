@@ -1,0 +1,1 @@
+cmd_/home/linux/moudle/tasklet/tasklet.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/linux/moudle/tasklet/tasklet.ko /home/linux/moudle/tasklet/tasklet.o /home/linux/moudle/tasklet/tasklet.mod.o

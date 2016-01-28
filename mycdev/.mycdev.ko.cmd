@@ -1,0 +1,1 @@
+cmd_/home/linux/moudle/mycdev/mycdev.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/linux/moudle/mycdev/mycdev.ko /home/linux/moudle/mycdev/mycdev.o /home/linux/moudle/mycdev/mycdev.mod.o

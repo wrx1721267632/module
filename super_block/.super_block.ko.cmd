@@ -1,0 +1,1 @@
+cmd_/home/linux/moudle/super_block/super_block.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/linux/moudle/super_block/super_block.ko /home/linux/moudle/super_block/super_block.o /home/linux/moudle/super_block/super_block.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/linux/moudle/malloc/malloc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/linux/moudle/malloc/malloc.ko /home/linux/moudle/malloc/malloc.o /home/linux/moudle/malloc/malloc.mod.o

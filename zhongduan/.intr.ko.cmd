@@ -1,0 +1,1 @@
+cmd_/home/linux/moudle/zhongduan/intr.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/linux/moudle/zhongduan/intr.ko /home/linux/moudle/zhongduan/intr.o /home/linux/moudle/zhongduan/intr.mod.o
